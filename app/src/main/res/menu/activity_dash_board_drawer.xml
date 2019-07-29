@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/kyc_personal"
+            android:icon="@drawable/clipboardwithpenci"
+            android:checkable="true"
+            android:actionLayout="@layout/activity_dash_board"
+            android:checked="false"
+            android:title="KYC Registration" />
+        <item
+            android:id="@+id/kyc_View"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/humaneyeshape"
+            android:title="KYC View Details" />
+
+        <item
+            android:id="@+id/change_password"
+            android:icon="@drawable/change"
+            android:checkable="true"
+            android:checked="false"
+            android:title="Change Password" />
+        <item
+            android:id="@+id/log_out"
+            android:checkable="true"
+            android:checked="false"
+            android:icon="@drawable/log_out"
+            android:title="Log out" />
+
+    </group>
+    <item android:title="Company">
+        <menu>
+            <item
+                android:id="@+id/add_moderator"
+                android:icon="@drawable/ic_person_add_black_24dp"
+                android:title="@string/add_moderator" />
+            <item
+                android:id="@+id/view_moderator"
+                android:icon="@drawable/ic_visibility_black_24dp"
+                android:title="View Moderator List" />
+        </menu>
+    </item>
+
+</menu>

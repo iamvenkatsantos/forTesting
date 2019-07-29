@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">"Sun Exchange"</string>
+
+    <!-- Signup page-->
+
+
+    <string name="sign_up">"Подписаться"</string>
+
+    <string name="first_name">"Имя*"</string>
+
+    <string name="last_name">"Фамилия*"</string>
+
+    <string name="user_name">"UserName *"</string>
+
+    <string name="email">"Эл. адрес*"</string>
+
+    <string name="confirm_password">"Подтвердите Пароль*"</string>
+
+    <string name="company_checkbox_button">"Вы регистрируетесь как компания?"</string>
+
+    <string name="company_name">"Название компании*"</string>
+
+    <string name="company_address">"Адрес компании*"</string>
+
+    <string name="phone_on">"номер телефона*"</string>
+
+    <string name="join_button">"Присоединиться"</string>
+
+    <string name="fax">"факс"</string>
+
+    <string name="already_have_an_account">"Уже есть аккаунт?"</string>
+
+    <!-- login page -->
+
+
+    <string name="sign_in">"Войти в систему"</string>
+
+    <string name="enter_email_or_username">"Введите адрес электронной почты или имя пользователя"</string>
+
+    <string name="password">"пароль"</string>
+
+    <string name="sign_in_button">"Войти в систему"</string>
+
+    <string name="forgot_password">"Забыли пароль"</string>
+
+    <string name="register_account">"Регистрация Аккаунта"</string>
+
+    <!-- OTP screen -->
+
+
+    <string name="enter_the_otp">"Введите OTP"</string>
+
+    <string name="dint_get_otp">"Не получил OTP?"</string>
+
+    <string name="submit">"Отправить"</string>
+
+    <string name="resend">"Отправить"</string>
+
+    <!-- Sidebar dashboard -->
+
+
+    <string name="kyc_registration">"Введите OTP"</string>
+
+    <string name="logout">"Выйти"</string>
+
+    <string name="change_password">"Изменить пароль"</string>
+
+    <!-- Kyc first form -->
+
+
+    <string name="middle_name">"Второе имя"</string>
+
+    <string name="dob">"Дата рождения*"</string>
+
+    <string name="residential_address">"Адрес проживания *"</string>
+
+    <string name="street">"Улица *"</string>
+
+    <string name="area">"Площадь*"</string>
+
+    <string name="city">"Город*"</string>
+
+    <string name="pincode">"Пин-код*"</string>
+
+    <string name="state">"Государственный*"</string>
+
+    <string name="country">"Страна*"</string>
+
+    <string name="next_button">"следующий"</string>
+
+    <!-- Kyc second form -->
+
+
+    <string name="tax_information">"Налоговая информация"</string>
+
+    <string name="name_of_the_business">"Наименование бизнеса *"</string>
+
+    <string name="tin_no">"Олово нет *"</string>
+
+    <string name="tax_country">"Выберите страну налогообложения *"</string>
+
+    <string name="tax_same_country_radio_button">"Является ли физическое лицо налоговым резидентом той же страны? *"</string>
+
+    <string name="tax_another_country_radio_button">"Является ли физическое лицо налоговым резидентом другой страны? *"</string>
+
+    <string name="yes_button">"да"</string>
+
+    <string name="no_button">"нет"</string>
+
+    <!-- Kyc image upload -->
+
+
+    <string name="national_identity_card">"НАЦИОНАЛЬНОЕ УДОСТОВЕРЕНИЕ ЛИЧНОСТИ:"</string>
+
+    <string name="passport">"ПАСПОРТ:"</string>
+
+    <string name="license">"ЛИЦЕНЗИЯ:"</string>
+
+    <string name="upload">"ЗАГРУЗИТЬ"</string>
+
+    <!-- forgot password -->
+
+
+    <string name="forgot_password_screen">"Забыли пароль?"</string>
+
+    <string name="send_link">"Отправить ссылку"</string>
+
+    <!-- Reset Password-->
+
+
+    <string name="reset_password">"Сброс пароля"</string>
+
+    <string name="new_password">"новый пароль"</string>
+
+    <!-- Change Password-->
+
+
+    <string name="old_password">"Прежний пароль"</string>
+
+    <string name="change_password_button">"+ Изменить"</string>
+
+    <!--edit profile-->
+
+
+    <string name="edit_profile_title">"Редактировать профиль"</string>
+
+    <string name="save">"Сохранить"</string>
+
+    <string name="do_you_want_to_reset">"Вы хотите сбросить?"</string>
+
+    <string name="reset">"Сброс"</string>
+
+    <string name="website">"Веб-сайт"</string>
+
+    <string name="phone_no">"Номер телефона"</string>
+
+    <string name="edit_profile_button">"редактировать"</string>
+
+    <!--dashboard-->
+
+
+    <string name="navigation_drawer_open">"Открыть навигационный ящик"</string>
+
+    <string name="navigation_drawer_close">"Закрыть навигационный ящик"</string>
+
+    <string name="nav_header_title">"Android Studio"</string>
+
+    <string name="nav_header_subtitle">"android.studio@android.com"</string>
+
+    <string name="nav_header_desc">"Заголовок навигации"</string>
+
+    <string name="title_activity_dash_board">"Приборная доска"</string>
+
+    <string name="asset_statements">"[{\"include\": \"https://account.microsoft.com/.well-known/assetlinks.json\"}]"</string>
+
+    <!-- TOASTER-->
+
+
+    <string name="field_missing">"некоторые обязательные поля отсутствуют"</string>
+
+    <string name="internal_error">"Ошибка сервера"</string>
+
+    <string name="resource_not_found">"Ресурс не найден"</string>
+
+    <string name="unauthorised">"неразрешенный"</string>
+
+    <string name="something_went_wrong">"что-то пошло не так"</string>
+    <string name="add_moderator">add moderator</string>
+
+</resources>

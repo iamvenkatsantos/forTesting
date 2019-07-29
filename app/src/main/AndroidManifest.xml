@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.onedata.sunexchange.logintask">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true"
+        android:anyDensity="true"
+        android:resizeable="true"/>
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="andriod.hardware.camera" android:required="true" />
+
+    <application
+        android:name=".utilities.GlobalApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:targetApi="n">
+        <activity
+            android:name=".DashScreenPresonal"
+            android:label="@string/title_activity_dash_screen_presonal"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".ModeratorView"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".PlaceHolder"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KycGalleryView"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".KycViewDetails"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <meta-data
+            android:name="asset_statements"
+            android:resource="@string/asset_statements" />
+
+        <activity
+            android:name=".dashBoardScreen"
+            android:label="@string/title_activity_dash_board"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".kycTax"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".kycPersonal"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".kycImageUpload"
+            android:theme="@style/AppTheme.NoActionBar">
+
+        </activity>
+        <activity
+            android:name=".viewProfileScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".editScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Forgotpassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".resetPassword"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+
+                <data
+                    android:host="www.example.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Linecht"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Pie"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Otp"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data
+                    android:host="www.android.com"
+                    android:scheme="http" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".changePassword"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".signupScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModeratorScreen"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".loginScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

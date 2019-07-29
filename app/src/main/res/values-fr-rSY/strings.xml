@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+
+    <resources>
+
+    <string name="app_name">"Sun Exchange"</string>
+
+    <!-- Signup page-->
+
+
+    <string name="sign_up">"S'inscrire"</string>
+
+    <string name="first_name">"Prénom*"</string>
+
+    <string name="last_name">"Nom de famille*"</string>
+
+    <string name="user_name">"Nom d'utilisateur*"</string>
+
+    <string name="email">"Email*"</string>
+
+    <string name="confirm_password">"Confirmez le mot de passe*"</string>
+
+    <string name="company_checkbox_button">"Vous vous inscrivez en tant que société"</string>
+
+    <string name="company_name">"Nom de la compagnie*"</string>
+
+    <string name="company_address">"Adresse de la société*"</string>
+
+    <string name="phone_on">"pas de téléphone*"</string>
+
+    <string name="join_button">"Joindre"</string>
+
+    <string name="fax">"fax"</string>
+
+    <string name="already_have_an_account">"Vous avez déjà un compte?"</string>
+
+    <!-- login page -->
+
+
+    <string name="sign_in">"Se connecter"</string>
+
+    <string name="enter_email_or_username">"Entrer email ou nom d'utilisateur"</string>
+
+    <string name="password">"Mot de passe"</string>
+
+    <string name="sign_in_button">"Se connecter"</string>
+
+    <string name="forgot_password">"Mot de passe oublié"</string>
+
+    <string name="register_account">"Créer un compte"</string>
+
+    <!-- OTP screen -->
+
+
+    <string name="enter_the_otp">"Entrez OTP"</string>
+
+    <string name="dint_get_otp">"Vous n'avez pas eu d'OTP?"</string>
+
+    <string name="submit">"Soumettre"</string>
+
+    <string name="resend">"Renvoyer"</string>
+
+    <!-- Sidebar dashboard -->
+
+
+    <string name="kyc_registration">"Entrez OTP"</string>
+
+    <string name="logout">"Connectez - Out"</string>
+
+    <string name="change_password">"Changer le mot de passe"</string>
+
+    <!-- Kyc first form -->
+
+
+    <string name="middle_name">"Deuxième nom"</string>
+
+    <string name="dob">"Date de naissance*"</string>
+
+    <string name="residential_address">"Adresse résidentielle *"</string>
+
+    <string name="street">"Rue*"</string>
+
+    <string name="area">"Surface*"</string>
+
+    <string name="city">"Ville*"</string>
+
+    <string name="pincode">"Code PIN*"</string>
+
+    <string name="state">"Etat*"</string>
+
+    <string name="country">"Pays*"</string>
+
+    <string name="next_button">"Suivant"</string>
+
+    <!-- Kyc second form -->
+
+
+    <string name="tax_information">"Informations fiscales"</string>
+
+    <string name="name_of_the_business">"Nom de l'entreprise *"</string>
+
+    <string name="tin_no">"Tin no *"</string>
+
+    <string name="tax_country">"Sélectionnez le pays d'imposition *"</string>
+
+    <string name="tax_same_country_radio_button">"L’individu est-il un résident fiscal du même pays? *"</string>
+
+    <string name="tax_another_country_radio_button">"L'individu est-il résident fiscal d'un autre pays? *"</string>
+
+    <string name="yes_button">"Oui"</string>
+
+    <string name="no_button">"non"</string>
+
+    <!-- Kyc image upload -->
+
+
+    <string name="national_identity_card">"CARTE D'IDENTITÉ:"</string>
+
+    <string name="passport">"PASSEPORT:"</string>
+
+    <string name="license">"LICENCE:"</string>
+
+    <string name="upload">"TÉLÉCHARGER"</string>
+
+    <!-- forgot password -->
+
+
+    <string name="forgot_password_screen">"Mot de passe oublié?"</string>
+
+    <string name="send_link">"Envoyer un lien"</string>
+
+    <!-- Reset Password-->
+
+
+    <string name="reset_password">"réinitialiser le mot de passe"</string>
+
+    <string name="new_password">"nouveau mot de passe"</string>
+
+    <!-- Change Password-->
+
+
+    <string name="old_password">"ancien mot de passe"</string>
+
+    <string name="change_password_button">"Changement"</string>
+
+    <!--edit profile-->
+
+
+    <string name="edit_profile_title">"Editer le profil"</string>
+
+    <string name="save">"sauvegarder"</string>
+
+    <string name="do_you_want_to_reset">"Voulez-vous réinitialiser?"</string>
+
+    <string name="reset">"Réinitialiser"</string>
+
+    <string name="website">"Site Internet"</string>
+
+    <string name="phone_no">"Pas de téléphone"</string>
+
+    <string name="edit_profile_button">"modifier"</string>
+
+    <!--dashboard-->
+
+
+    <string name="navigation_drawer_open">"Ouvrir le tiroir de navigation"</string>
+
+    <string name="navigation_drawer_close">"Fermer le tiroir de navigation"</string>
+
+    <string name="nav_header_title">"Studio Android"</string>
+
+    <string name="nav_header_subtitle">"android.studio@android.com"</string>
+
+    <string name="nav_header_desc">"En-tête de navigation"</string>
+
+    <string name="title_activity_dash_board">"Tableau de bord"</string>
+
+    <string name="asset_statements">"[{\"include\": \"https://account.microsoft.com/.well-known/assetlinks.json\"}]"</string>
+
+    <!-- TOASTER-->
+
+
+    <string name="field_missing">"il manque des champs obligatoires"</string>
+
+    <string name="internal_error">"erreur du serveur"</string>
+
+    <string name="resource_not_found">"Ressource introuvable"</string>
+
+    <string name="unauthorised">"non autorisé"</string>
+
+    <string name="something_went_wrong">"quelque chose s'est mal passé"</string>
+    <string name="add_moderator">add moderator</string>
+
+</resources>

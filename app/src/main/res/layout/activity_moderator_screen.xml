@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ModeratorScreen">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bebas_regular"
+                android:text="add users"
+                />
+
+        </RelativeLayout>
+    </android.support.v7.widget.Toolbar>
+    <android.support.constraint.ConstraintLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/topconst"
+        android:layout_below="@+id/toolbar"
+        >
+
+        <TextView
+            android:id="@+id/ftv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="299dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bebas_regular"
+            android:text="@string/first_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linear1"
+        android:layout_below="@+id/topconst">
+        <EditText
+           android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/firstName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+
+            android:autofillHints=""
+            android:background="@drawable/edit_text_round"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text"
+
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="18sp"
+
+            tools:targetApi="o" />
+    </LinearLayout>
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/secconst"
+        android:layout_below="@+id/linear1"
+        >
+
+        <TextView
+            android:id="@+id/ltv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="304dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bebas_regular"
+            android:text="@string/last_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linear2"
+        android:layout_below="@+id/secconst">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/lastName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+
+            android:autofillHints=""
+            android:background="@drawable/edit_text_round"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text"
+
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="18sp"
+
+            tools:targetApi="o" />
+    </LinearLayout>
+
+
+
+
+    <android.support.constraint.ConstraintLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/thirdconst"
+        android:layout_below="@+id/linear2"
+        >
+
+        <TextView
+            android:id="@+id/utv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="304dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bebas_regular"
+            android:text="@string/user_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linear3"
+        android:layout_below="@+id/thirdconst">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/userName"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+
+            android:autofillHints=""
+            android:background="@drawable/edit_text_round"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="text"
+
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="18sp"
+
+            tools:targetApi="o" />
+    </LinearLayout>
+
+
+    <android.support.constraint.ConstraintLayout
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/finalconst"
+        android:layout_below="@+id/linear3"
+        >
+
+        <TextView
+            android:id="@+id/emtv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="55dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="306dp"
+            android:layout_marginBottom="10dp"
+            android:fontFamily="@font/bebas_regular"
+            android:text="@string/email"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.7" />
+    </android.support.constraint.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/linear4"
+        android:layout_below="@+id/finalconst">
+        <EditText
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/email"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:autofillHints=""
+            android:background="@drawable/edit_text_round"
+            android:ems="10"
+            android:gravity="center"
+            android:inputType="textEmailAddress"
+
+            android:fontFamily="@font/bebas_regular"
+            android:textSize="18sp"
+
+            tools:targetApi="o" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+
+        android:layout_below="@+id/linear4"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/button_border"
+        android:text="Submit"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>
+
+
+</ScrollView>

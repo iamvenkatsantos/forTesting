@@ -1,0 +1,914 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:background="#FFFFFF"
+    tools:context=".KycViewDetails"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:id="@+id/rel1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/personalid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="PERSONAL INFO"
+                android:textColor="@color/colorPrimary"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_below="@id/personalid"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/fName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/personalid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/first_name"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@+id/personalid"
+                android:id="@+id/firstName"
+
+                />
+
+            <TextView
+                android:id="@+id/lastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/fName"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/last_name"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_below="@id/firstName"
+                android:layout_marginLeft="350dp"
+                android:id="@+id/lid"
+
+                />
+
+            <TextView
+                android:id="@+id/dobid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/lastName"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/dob"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_below="@id/lastName"
+                android:layout_marginLeft="350dp"
+                android:id="@+id/DateofBirth"
+
+                />
+
+            <TextView
+                android:id="@+id/addressid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/dobid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/residential_address"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@id/DateofBirth"
+                android:id="@+id/address"/>
+
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:id="@+id/rel2"
+            android:layout_below="@+id/rel1"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/companyid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:text="COMPANY INFO"
+                android:textColor="@color/colorPrimary"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+            <View
+                android:layout_below="@id/companyid"
+                android:layout_width="wrap_content"
+                android:layout_height="2dp"
+                android:background="@color/colorPrimary"/>
+
+            <TextView
+                android:id="@+id/cnid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/companyid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/company_name"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@+id/companyid"
+                android:id="@+id/businessName"
+
+                />
+
+            <TextView
+                android:id="@+id/caddid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/cnid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="@string/company_address"
+                android:textColor="@color/colorPrimary"
+
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_below="@id/businessName"
+                android:layout_marginLeft="350dp"
+                android:id="@+id/businessAddress"
+
+                />
+
+            <TextView
+                android:id="@+id/taxid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/caddid"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="0dp"
+                android:paddingLeft="20dp"
+
+                android:paddingTop="5dp"
+                android:text="Tax country*"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_below="@+id/businessAddress"
+                android:layout_marginLeft="350dp"
+                android:id="@+id/taxCountry"
+
+                />
+
+            <TextView
+                android:id="@+id/tsid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/taxid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Tax same country*"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@id/taxCountry"
+                android:id="@+id/taxSameCountry"/>
+
+            <TextView
+                android:id="@+id/taid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tsid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Tax another country*"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@id/taxSameCountry"
+                android:id="@+id/taxAnotherCountry"/>
+
+            <TextView
+                android:id="@+id/tinid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/taid"
+                android:paddingLeft="20dp"
+                android:paddingTop="5dp"
+                android:text="Tin number*"
+                android:textColor="@color/colorPrimary"
+                android:textSize="36sp" />
+            <TextView
+                android:paddingTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="36sp"
+                android:layout_marginLeft="350dp"
+                android:layout_below="@id/taxAnotherCountry"
+                android:id="@+id/tin_no"/>
+
+
+
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/viewdoc"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+
+            android:layout_below="@+id/rel2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp"
+
+            android:layout_marginBottom="50dp"
+            android:background="@drawable/button_border"
+            android:text="VIEW DOCUMENT"
+            android:textColor="#FFFFFF"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="vertical"
+         android:id="@+id/linear"
+         android:layout_marginTop="0dp">
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="60dp"
+             android:layout_marginBottom="15dp"
+             android:background="#FFFFFF">
+
+             <ImageView
+                 android:id="@+id/imageView3"
+                 android:layout_width="wrap_content"
+                 android:padding="10dp"
+                 android:layout_height="wrap_content"
+                 tools:srcCompat="@drawable/logo" />
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:id="@+id/relative"
+             android:layout_marginLeft="15dp"
+             >
+
+             <TextView
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_marginTop="10dp"
+                 android:paddingStart="10dp"
+                 android:id="@+id/personal_details"
+                 android:text="Personal Details:"
+                 android:textColor="#000000"
+                 android:textSize="20dp"
+                 android:textStyle="bold"
+                 android:layout_marginBottom="20dp"/>
+
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="350dp"
+                 android:layout_height="wrap_content"
+                 android:layout_rowWeight="1"
+                 android:layout_columnWeight="1"
+                 android:id="@+id/card"
+                 android:layout_alignParentTop="true"
+                 android:layout_gravity="center"
+                 android:layout_marginStart="12dp"
+                 android:layout_marginTop="50dp"
+                 android:layout_below="@+id/personal_details"
+                 android:layout_marginEnd="12dp"
+                 android:layout_marginBottom="12dp"
+                 android:elevation="6dp"
+                 app:cardCornerRadius="40dp">
+
+                 <RelativeLayout
+                     android:id="@+id/relly1"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="@string/first_name"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/firstName"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="50dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/firstName"
+                         android:layout_marginTop="18dp"
+                         android:paddingStart="20dp"
+                         android:text="@string/last_name"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/lastName"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/firstName"
+                         android:layout_marginTop="45dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold"
+
+                         />
+
+                     <TextView
+                         android:id="@+id/middle"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/lastName"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="Middle Name"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/middleName"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/lastName"
+                         android:layout_marginTop="50dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+
+                     <TextView
+                         android:id="@+id/dob"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/middleName"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="Date of Birth"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/DateofBirth"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/middleName"
+                         android:layout_marginTop="50dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/ADDRESS"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/DateofBirth"
+                         android:paddingStart="20dp"
+                         android:text="@string/residential_address"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/address"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/DateofBirth"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/Area"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/address"
+                         android:paddingStart="20dp"
+                         android:text="Area"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/area"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/address"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/STREET"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/area"
+                         android:paddingStart="20dp"
+                         android:text="Street"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/street"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/area"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/STATE"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/street"
+                         android:paddingStart="20dp"
+                         android:text="State"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/state"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/street"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/CITY"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/state"
+                         android:paddingStart="20dp"
+                         android:text="City"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/city"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/state"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/COUNTRY"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/city"
+                         android:paddingStart="20dp"
+                         android:text="Country"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/country"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/city"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/PINCODE"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/country"
+                         android:paddingStart="20dp"
+                         android:text="Pincode"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/pincode"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/country"
+                         android:layout_marginTop="30dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+                 </RelativeLayout>
+
+             </android.support.v7.widget.CardView>
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:layout_marginBottom="40dp"
+             android:layout_below="@+id/relly1">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="20dp"
+                 android:layout_height="wrap_content">
+                 <Button
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="20dp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:padding="5dp"
+                     android:layout_marginStart="45dp"
+                     android:visibility="invisible"
+                     android:id="@+id/edit_personal"
+                     android:layout_gravity="center"
+                     android:text="Edit Details"
+                     android:background="@drawable/button_border"
+                     />
+                 <Button
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="20dp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:padding="5dp"
+                     android:layout_marginStart="25dp"
+                     android:visibility="invisible"
+                     android:id="@+id/showGalley_personal"
+                     android:layout_gravity="center"
+                     android:text="Show Gallery"
+                     android:background="@drawable/button_border"
+                     />
+             </LinearLayout>
+         </RelativeLayout>
+
+
+
+         <TextView
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Company Details:"
+             android:visibility="gone"
+             android:id="@+id/company_details"
+             android:layout_below="@+id/relative"
+             android:textColor="#000000"
+             android:paddingStart="10dp"
+             android:layout_marginStart="20dp"
+             android:textSize="20sp"
+             android:textStyle="bold" />
+
+
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_gravity="center"
+             android:id="@+id/relative2"
+             android:layout_below="@+id/company_details"
+             android:layout_marginLeft="15dp"
+             android:visibility="visible"
+             android:layout_marginBottom="20dp">
+
+             <android.support.v7.widget.CardView
+                 android:layout_width="350dp"
+                 android:layout_height="wrap_content"
+                 android:layout_rowWeight="1"
+                 android:layout_columnWeight="1"
+                 android:layout_alignParentTop="true"
+                 android:layout_gravity="center"
+                 android:layout_marginStart="12dp"
+                 android:layout_marginTop="10dp"
+                 android:layout_marginEnd="12dp"
+                 android:layout_marginBottom="12dp"
+                 android:elevation="6dp"
+                 app:cardCornerRadius="40dp">
+                 <RelativeLayout
+                     android:id="@+id/relly2"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content">
+
+                     <TextView
+                         android:id="@+id/BUSINESSNAME"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="Business Name"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/businessName"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_marginTop="50dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/BUSINESSADDRESS"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/businessName"
+                         android:layout_marginTop="18dp"
+                         android:paddingStart="20dp"
+                         android:text="Business Address"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/businessAddress"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/businessName"
+                         android:layout_marginTop="45dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold"
+
+                         />
+
+                     <TextView
+                         android:id="@+id/TAXCOUNTRY"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/businessAddress"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="Tax Country"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/taxCountry"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/businessAddress"
+                         android:layout_marginTop="50dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+
+                     <TextView
+                         android:id="@+id/TAXSAMECOUNTRY"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/taxCountry"
+                         android:layout_marginTop="20dp"
+                         android:paddingStart="20dp"
+                         android:text="Tax Same Country"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/taxSameCountry"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/taxCountry"
+                         android:layout_marginTop="50dp"
+                         android:layout_marginBottom="30dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+
+                     <TextView
+                         android:id="@+id/TAXANOTHERCOUNTRY"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/taxSameCountry"
+                         android:paddingStart="20dp"
+                         android:text="Tax Another Country"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+                     <TextView
+                         android:id="@+id/taxAnotherCountry"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/taxSameCountry"
+                         android:layout_marginTop="50dp"
+                         android:layout_marginBottom="10dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+                     <TextView
+                         android:id="@+id/TIN_NO"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/taxAnotherCountry"
+                         android:paddingStart="20dp"
+                         android:text="Tin Number"
+                         android:textColor="#706E6E"
+                         android:textSize="20dp"
+                         android:textStyle="bold" />
+                     <TextView
+                         android:id="@+id/tin_no"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@id/taxAnotherCountry"
+                         android:layout_marginTop="50dp"
+                         android:layout_marginBottom="50dp"
+                         android:paddingStart="20dp"
+                         android:textColor="#000000"
+                         android:textSize="20dp"
+                         android:textStyle="bold"
+                         />
+
+
+             </RelativeLayout>
+
+
+             </android.support.v7.widget.CardView>
+
+         </RelativeLayout>
+         <RelativeLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="20dp"
+             android:layout_marginBottom="40dp"
+             android:layout_below="@+id/relly2">
+             <LinearLayout
+                 android:layout_width="match_parent"
+                 android:orientation="horizontal"
+                 android:layout_marginTop="20dp"
+                 android:layout_height="wrap_content">
+                 <Button
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="20dp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:padding="5dp"
+                     android:layout_marginStart="45dp"
+                     android:visibility="gone"
+                     android:id="@+id/edit_company"
+                     android:layout_gravity="center"
+                     android:text="Edit Details"
+                     android:background="@drawable/button_border"
+                     />
+                 <Button
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:textSize="20dp"
+                     android:textColor="#FFFFFF"
+                     android:textStyle="bold"
+                     android:padding="5dp"
+                     android:layout_marginStart="25dp"
+                     android:visibility="gone"
+                     android:id="@+id/showGalley_company"
+                     android:layout_gravity="center"
+                     android:text="Show Gallery"
+                     android:background="@drawable/button_border"
+                     />
+             </LinearLayout>
+         </RelativeLayout>
+
+
+
+     </LinearLayout>-->
+
+
+
+</ScrollView>

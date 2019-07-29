@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Sun Exchange</string>
+
+    <!-- Signup page-->
+    <string name="sign_up">SIGN UP</string>
+    <string name="first_name">First Name*</string>
+    <string name="last_name">Last Name*</string>
+    <string name="user_name">UserName*</string>
+    <string name="email">Email*</string>
+    <string name="confirm_password">Confirm password*</string>
+    <string name="company_checkbox_button">Are you registering as a company</string>
+    <string name="company_name">Company name*</string>
+    <string name="company_address">Company address*</string>
+    <string name="phone_on">phone no*</string>
+    <string name="join_button">Join</string>
+    <string name="fax">fax</string>
+    <string name="already_have_an_account">Already have an account?</string>
+
+    <!-- login page -->
+    <string name="sign_in">SIGN IN</string>
+    <string name="enter_email_or_username">Enter email or username</string>
+    <string name="password">Password</string>
+    <string name="sign_register_account">Do you want to register?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="register_account">SIGN UP</string>
+
+    <!-- OTP screen -->
+    <string name="enter_the_otp">Enter OTP</string>
+    <string name="dint_get_otp">Didn\'t get OTP?</string>
+    <string name="submit">Submit</string>
+    <string name="resend">Resend</string>
+
+
+    <!-- Sidebar dashboard -->
+    <string name="kyc_registration">Enter OTP</string>
+    <string name="logout">Logout</string>
+    <string name="change_password">Change Password</string>
+
+    <!-- Kyc first form -->
+    <string name="middle_name">Middle name</string>
+    <string name="dob">Date of birth*</string>
+    <string name="residential_address">Residential Address*</string>
+    <string name="street">Street*</string>
+    <string name="area">Area*</string>
+    <string name="city">City*</string>
+    <string name="pincode">Pincode*</string>
+    <string name="kyc_personal">kyc personal</string>
+    <string name="state">State*</string>
+    <string name="country">Country*</string>
+    <string name="next_button">Next</string>
+
+    <!-- Kyc second form -->
+    <string name="tax_information">Tax Information</string>
+    <string name="name_of_the_business">Name of Business*</string>
+    <string name="tin_no">Tin no*</string>
+    <string name="tax_country">Select tax country*</string>
+    <string name="kyc_tax_information">kyc tax information</string>
+    <string name="tax_same_country_radio_button">Is The Individual a Tax Resident Of Same Country?*</string>
+    <string name="tax_another_country_radio_button">Is The Individual a Tax Resident Of Another Country?*</string>
+    <string name="yes_button">yes</string>
+    <string name="no_button">no</string>
+
+    <!-- Kyc image upload -->
+    <string name="national_identity_card">NATIONAL IDENTITY CARD:</string>
+    <string name="passport">PASSPORT:</string>
+    <string name="license">LICENSE:</string>
+    <string name="kyc_document">kyc document</string>
+    <string name="upload">UPLOAD</string>
+
+    <!-- forgot password -->
+    <string name="forgot_password_screen">Forgot Password?</string>
+    <string name="send_link">Send Link</string>
+
+
+    <!-- Reset Password-->
+    <string name="reset_password">Reset Password</string>
+    <string name="new_password">New Password</string>
+
+
+    <!-- Change Password-->
+    <string name="old_password">Old Password</string>
+    <string name="change_password_button">Change</string>
+
+    <!--edit profile-->
+    <string name="edit_profile_title">Edit Profile</string>
+    <string name="save">Update</string>
+    <string name="do_you_want_to_reset">Do you want reset?</string>
+    <string name="reset">Reset</string>
+    <string name="website">Website</string>
+    <string name="view_profile">view profile</string>
+    <string name="phone_no">Phone no</string>
+    <string name="edit_profile_button">Edit</string>
+
+    <!--dashboard-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="title_activity_dash_board">Dash Board</string>
+    <string name="asset_statements">[{ \"include\": \"https://account.microsoft.com/.well-known/assetlinks.json\" }]</string>
+
+    <!-- TOASTER-->
+    <string name="field_missing">some mandatory fields are missing</string>
+    <string name="internal_error">server error</string>
+    <string name="resource_not_found">Resource not found</string>
+    <string name="unauthorised">unauthorised</string>
+    <string name="something_went_wrong">something went wrong</string>
+
+
+    <!--hint-->
+    <string name="confirm_password_hint" translatable="false">Confirm password</string>
+    <string name="view_user">view user</string>
+    <string name="kyc_details">Kyc details</string>
+    <string name="view_moderator_list">view moderator list</string>
+    <string name="add_moderator">Add moderator</string>
+    <string name="title_activity_dash_screen_presonal">DashScreenPresonal</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="line_chart">Line Chart</string>
+    <string name="pie_chart">pie chart</string>
+
+
+</resources>
